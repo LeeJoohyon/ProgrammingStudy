@@ -1,0 +1,10 @@
+#postgresql
+
+	sudo apt-get install postgresql postgresql-contrib
+	postgres 설치
+	
+	sudo -u postgres createuser -s -P ljh
+	유저생성
+	
+	sudo -u postgres createdb --owner=ljh
+	디비생성

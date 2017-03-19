@@ -3,10 +3,10 @@
 
 #AWS 접속방법
 
-	ssh -i ~/.ssh/LJH.pem ubuntu@ec2-13-124-53-139.ap-northeast-2.compute.amazonaws.com 
+	ssh -i ~/.ssh/LJH.pem ubuntu@ec2-13-124-19-131.ap-northeast-2.compute.amazonaws.com
 	
 #AWS에 app 파일 복사하기 
-	scp -r -i ~/.ssh/LJH.pem . ubuntu@ec2-13-124-53-139.ap-northeast-2.compute.amazonaws.com:/srv/app/(경로)올릴때는 항상 앱의 상위폴더에서 실행해야한다.
+	scp -r -i ~/.ssh/LJH.pem . ubuntu@ec2-13-124-19-131.ap-northeast-2.compute.amazonaws.com:/srv/app/(경로)올릴때는 항상 앱의 상위폴더에서 실행해야한다.
 
 	
 #nginx
